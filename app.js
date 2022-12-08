@@ -5,6 +5,7 @@ const BP = require('body-parser');
 const Joi = require('joi');
 const fs = require("fs");
 
+// nesto ovde
 
 app.get('/', (req, res) =>{
     res.sendFile(path.join(__dirname, 'static/yogafun', 'index.html'));
